@@ -140,7 +140,7 @@ int nunchuk_read_data(struct nunchuk* n)
 {
 	/*ret = i2c_smbus_read_i2c_block_data(fd, 0, NUNCHUK_DATA_LENGTH, (uint8_t *)nunchuk_buffer);
 	if(ret < 0) {
-		printf("error reading data\n");
+		//printf("error reading data\n");
 	} else {
 		printf("read %d byte(s)!!\n", ret);
 	}*/
